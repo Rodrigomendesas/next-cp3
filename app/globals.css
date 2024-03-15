@@ -16,8 +16,36 @@
   }
 }
 
-body {
+header {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 6.5rem;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 
+header > img {
+  height: 90px;
+  width: 80px;
+  margin-right: 10px;
+}
+
+header > p {
+  font-size: 2rem;
+  font-family: Verdana, Tahoma, sans-serif;
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  background-color: rgb(29, 29, 29);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
 }
 
 @layer utilities {
